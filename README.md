@@ -1,5 +1,5 @@
 # Weather API Calls
-Using `NOAA API V2` in order get local weather data based on the user's start and endpoint location. We can also use historical weather data to show off functionality. Plan on using the `Precipitation 15 Minute` data set with `api call: https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets/{id}". https://www.ncdc.noaa.gov/cdo-web/webservices/v2#datasets  
+Using `NOAA API V2` in order get local weather data based on the user's start and endpoint location. We can also use historical weather data to show off functionality. Plan on using the `Precipitation 15 Minute` data set with `api call: https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets/{id}`. https://www.ncdc.noaa.gov/cdo-web/webservices/v2#datasets  
 http://mesonet.agron.iastate.edu/ogc/?fbclid=IwAR1WAJ1fyKop299shSJ5DAgEGTLlqMijKATWNV0_vgzZdOOyVF0sk9WbGMk
 https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/PRECIP_15_documentation.pdf
 
