@@ -1,0 +1,38 @@
+{
+	"private": true,
+	"name": "DriveSafe",
+	"version": "0.0.1",
+	"license": "MIT",
+	"scripts": {
+		"dev": "npx webpack --watch && npx website-dev-server --open",
+		"build": "npx webpack"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-synacor"
+	},
+	"eslintIgnore": [
+		"build/*"
+	],
+	"devDependencies": {
+		"eslint": "^4.9.0",
+		"eslint-config-synacor": "^2.0.2",
+		"jest": "^25.0.0",
+		"jest-preset-preact": "^1.0.0",
+		"per-env": "^1.0.2",
+		"preact-cli": "^2.1.0",
+		"preact-render-spy": "^1.2.1",
+		"webpack-cli": "^3.3.9"
+	},
+	"dependencies": {
+		"preact": "^8.5.2",
+		"preact-compat": "^3.17.0",
+		"preact-render-to-string": "^4.1.0",
+		"preact-router": "^2.5.7",
+		"ts-loader": "^6.2.0",
+		"typescript": "^3.6.4",
+		"webpack": "^4.41.1"
+	},
+	"jest": {
+		"preset": "jest-preset-preact"
+	}
+}
